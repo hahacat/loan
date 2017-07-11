@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.fl{
+	float: left;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.block{
+	display: block;
+}
+html{
+	font-size: 100px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+h1{
+	font:bold 0.2rem/0.3rem "微软雅黑";
+	text-align: center;
+	padding-top: 0.15rem;
+}
+.user{
+	border: 1px solid #000;
+	border-bottom: none;
+	width: 3rem;
+	margin: 0.1rem auto;
+	font: 0.10rem/0.2rem "微软雅黑";
+}
+.user li{
+	border-bottom: 1px solid #000;
+	height: 0.2rem;
+}
+.user span{
+	border-right: 1px solid #000;
+	width: 30%;
+	box-sizing: border-box;
+}
+.user input{
+	border: none; 
+	height: 100%;
+	font: 0.10rem/0.2rem "微软雅黑";
+}
+.user input[type="number"]{
+	text-indent: 0.1rem;	
+	width: 70%;	
+}
+.user .button{
+	width: 100%;
+	font-weight: bold;
+	text-align: center;				
+}
+
+.content{
+	font: 0.14rem/0.2rem "微软雅黑";
+	width: 3rem;
+	margin: 0 auto;
+}
+
+.resume{
+	margin-bottom: 0.1rem;
+}
+.resume .title{
+	width: 1rem;
+}
+
+.details h3{
+	padding: 0.1rem 0;
+}			
+.details table{
+	width: 100%;
+	text-align: center;
+}
+
+.page{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,0.5);
+	display: none;
+}
+.pageshow{
+	display: block;
+}
+.page .popup{
+	width: 2rem;
+	height: 1rem;
+	margin: 1rem auto;
+	text-align: center;
+	background: #fff;
+	position: relative;
+}
+.page .text{
+	font: 0.1rem/1rem "微软雅黑";
+}
+.page .close{
+	position: absolute;
+	top:0;
+	right: 0;
+	width: 0.2rem;
+	height: 0.2rem;
+	font: 0.2rem/0.2rem arial;
+}
